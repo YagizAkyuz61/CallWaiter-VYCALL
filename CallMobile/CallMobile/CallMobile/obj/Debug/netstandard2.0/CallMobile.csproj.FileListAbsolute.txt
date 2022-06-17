@@ -1,0 +1,15 @@
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\bin\Debug\netstandard2.0\CallMobile.deps.json
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\bin\Debug\netstandard2.0\CallMobile.dll
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\bin\Debug\netstandard2.0\ref\CallMobile.dll
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\bin\Debug\netstandard2.0\CallMobile.pdb
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.csproj.AssemblyReference.cache
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.AssemblyInfoInputs.cache
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.AssemblyInfo.cs
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.csproj.CoreCompileInputs.cache
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.dll
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\ref\CallMobile.dll
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\CallMobile.pdb
+C:\Users\akyz6\Xamarin\CallMobile\CallMobile\CallMobile\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs

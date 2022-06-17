@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CallMobile.Pages.HomePage"
+             BackgroundColor="#c9c9c9" Title="Call" NavigationPage.HasBackButton="False">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="list" BackgroundColor="White" Margin="5,5,5,5" ItemSelected="list_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="0" Grid.ColumnSpan="2">
+                                    <Label Text="{Binding MasaName}" TextColor="Black" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="0" FontSize="20"/>
+                                </StackLayout>
+
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="2">
+                                    <Label Text="{Binding Station}" TextColor="Black" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="2" FontSize="20"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label x:Name="idTXT" FontSize="20"/>
+            <Button x:Name="updateBTN" Text="Onayla" FontSize="20" BackgroundColor="Purple" Clicked="updateBTN_Clicked"/>
+            <Button x:Name="refleshBTN" Text="Onayla" FontSize="20" BackgroundColor="Purple" Clicked="refleshBTN_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
